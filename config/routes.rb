@@ -5,6 +5,7 @@ SampleApp::Application.routes.draw do
   match '/about', :to=> 'pages#about'
   match '/help', :to=> 'pages#help'
 
+  resources :users
   match '/signup', :to=> 'users#new'
 
   # The priority is based upon order of creation:

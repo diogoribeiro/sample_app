@@ -18,6 +18,7 @@ end
 
 group :development do
   gem 'rspec-rails'
+  gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 end
 
 group :test do
@@ -25,6 +26,7 @@ group :test do
   gem 'webrat'
   gem 'autotest'
   gem 'autotest-rails-pure'
+  gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 end
 
 gem 'jquery-rails'
