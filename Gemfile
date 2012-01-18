@@ -27,10 +27,12 @@ group :test do
   gem 'autotest'
   gem 'autotest-rails-pure'
   gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+  gem 'factory_girl_rails'
 end
 
 gem 'jquery-rails'
 gem "therubyracer", ">= 0.8.2"
+gem 'gravatar_image_tag'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
