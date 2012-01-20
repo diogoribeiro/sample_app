@@ -33,6 +33,8 @@ end
 gem 'jquery-rails'
 gem "therubyracer", ">= 0.8.2"
 gem 'gravatar_image_tag'
+gem 'faker'
+gem 'will_paginate'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
